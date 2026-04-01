@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --background: #ffffff;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Image loading improvements */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent layout shift during image loads */
+.next-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Professional hover and focus states */
+a, button {
+  transition: all 0.2s ease-in-out;
+}
+
+a:focus-visible, button:focus-visible {
+  outline: 2px solid #0891b2;
+  outline-offset: 2px;
+}
+
+/* Improved text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Selection styling */
+::selection {
+  background-color: #0891b2;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: #0891b2;
+  color: #ffffff;
+}
+
+/* Loading state for images */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.image-loading {
+  background: linear-gradient(
+    to right,
+    #334155 0%,
+    #475569 20%,
+    #334155 40%,
+    #334155 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}
