@@ -35,8 +35,8 @@ const faqs = [
     category: 'HVAC Services',
     questions: [
       {
-        q: 'What types of HVAC materials do you work with?',
-        a: 'We work with all major HVAC materials including asphalt shingles, metal HVAC, tile, slate, TPO, EPDM, and more. We can help you choose the best material for your needs and budget.',
+        q: 'What types of AC systems do you work with?',
+        a: 'We service and install all major AC system types including central air conditioning, heat pumps, ductless mini-splits, package units, and more. We can help you choose the best system for your home and budget.',
       },
       {
         q: 'How long does a AC installation take?',
@@ -47,8 +47,8 @@ const faqs = [
         a: 'Yes! We provide comprehensive HVAC services for both residential homes and commercial buildings of all sizes.',
       },
       {
-        q: 'Can you match my existing roof if I only need partial repairs?',
-        a: 'We make every effort to match existing materials, though exact matches depend on the age and availability of your current HVAC materials. We\'ll discuss all options during your estimate.',
+        q: 'Can you repair my existing AC system or do I need a full replacement?',
+        a: 'In many cases, we can repair your existing system and extend its life. However, if your unit is over 10-15 years old or requires frequent repairs, a replacement may be more cost-effective. We\'ll give you an honest assessment during your estimate.',
       },
     ],
   },
@@ -56,8 +56,8 @@ const faqs = [
     category: 'Costs & Payment',
     questions: [
       {
-        q: 'How much does a new roof cost?',
-        a: 'Roof costs vary widely based on size, materials, pitch, and complexity. On average, residential roofs range from $5,000 to $25,000+. Schedule a free estimate for accurate pricing for your specific project.',
+        q: 'How much does a new AC system cost?',
+        a: 'AC system costs vary based on the type, size, efficiency rating, and complexity of the installation. On average, residential systems range from $3,500 to $12,000+. Schedule a free estimate for accurate pricing for your specific home.',
       },
       {
         q: 'Do you offer financing options?',
@@ -65,7 +65,7 @@ const faqs = [
       },
       {
         q: 'What forms of payment do you accept?',
-        a: 'We accept cash, checks, credit cards, and financing. We also work directly with insurance companies for emergency HVAC claims.',
+        a: 'We accept cash, checks, credit cards, and financing. We also work directly with insurance companies for covered HVAC repairs and replacements.',
       },
       {
         q: 'Do I need to pay everything upfront?',
@@ -74,23 +74,23 @@ const faqs = [
     ],
   },
   {
-    category: 'Insurance & Emergency HVAC',
+    category: 'Insurance & Emergency AC Service',
     questions: [
       {
         q: 'Do you work with insurance companies?',
-        a: 'Yes, we have extensive experience working with insurance companies for emergency HVAC claims. We can help document damage, meet with adjusters, and ensure you receive fair compensation.',
+        a: 'Yes, we have extensive experience working with insurance companies for HVAC-related claims. We can help document damage, meet with adjusters, and ensure you receive fair compensation.',
       },
       {
-        q: 'Will you help with the duct cleaning process?',
+        q: 'Will you help with the insurance claim process?',
         a: 'Absolutely. We\'ll provide detailed documentation, photos, and estimates to support your claim. We can also meet with your insurance adjuster to explain the necessary repairs.',
       },
       {
-        q: 'How do I know if my roof has emergency HVAC?',
-        a: 'Common signs include missing or damaged shingles, dents on vents or flashing, granule loss, and interior leaks. We offer free emergency HVAC inspections to assess your HVAC system.',
+        q: 'How do I know if my AC needs emergency repair?',
+        a: 'Common signs include your system blowing warm air, strange noises or burning smells, refrigerant leaks, the unit not turning on, or your home not cooling despite the AC running. We offer free inspections to assess your HVAC system.',
       },
       {
         q: 'How quickly can you respond to emergency repairs?',
-        a: 'We offer 24/7 emergency HVAC services for urgent situations like severe leaks or emergency HVAC. Call us immediately for emergency assistance.',
+        a: 'We offer 24/7 emergency AC repair services for urgent situations like a complete system failure or no cooling during extreme heat. Call us immediately for emergency assistance.',
       },
     ],
   },
@@ -102,16 +102,16 @@ const faqs = [
         a: 'We provide comprehensive warranties on both materials (manufacturer warranty) and workmanship (our labor warranty). Specific terms vary by project and will be detailed in your contract.',
       },
       {
-        q: 'How long do roofs typically last?',
-        a: 'Roof lifespan varies by material: Asphalt shingles (15-30 years), Metal HVAC (40-70 years), Tile (50+ years), TPO/EPDM (20-30 years). Proper maintenance can extend these lifespans.',
+        q: 'How long do AC systems typically last?',
+        a: 'In South Florida, AC systems typically last 10-15 years due to the heavy year-round use. Lifespan varies by system type: central AC units (10-15 years), heat pumps (10-15 years), ductless mini-splits (15-20 years). Proper maintenance can extend these lifespans significantly.',
       },
       {
-        q: 'Do you offer roof maintenance services?',
-        a: 'Yes, we offer regular HVAC maintenance and maintenance to extend your HVAC system\'s life and catch small issues before they become expensive problems.',
+        q: 'Do you offer HVAC maintenance services?',
+        a: 'Yes, we offer preventive HVAC maintenance plans to extend your system\'s life, improve efficiency, and catch small issues before they become expensive problems.',
       },
       {
-        q: 'How often should I have my roof inspected?',
-        a: 'We recommend professional HVAC maintenance at least once per year, and after any major storm events. Regular inspections help identify and address minor issues early.',
+        q: 'How often should I have my AC system serviced?',
+        a: 'We recommend professional HVAC maintenance at least twice per year — once before cooling season and once before heating season. In South Florida, where your AC runs nearly year-round, regular tune-ups help maintain efficiency and prevent breakdowns.',
       },
     ],
   },
@@ -124,7 +124,7 @@ const faqs = [
       },
       {
         q: 'How do you protect my property during the project?',
-        a: 'We use protective tarps, have magnetic tools to collect nails, and conduct thorough cleanup daily. Your property protection is a top priority.',
+        a: 'We use drop cloths and protective coverings to keep your home clean during installation. Our technicians wear shoe covers indoors and conduct a thorough cleanup after every job. Your property protection is a top priority.',
       },
       {
         q: 'What happens if weather delays the project?',
@@ -184,11 +184,11 @@ export default function FAQPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+15553343267"
+                href="tel:+19542896718"
                 className="inline-flex items-center justify-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-slate-900 font-bold px-8 py-4 rounded-lg transition shadow-lg shadow-cyan-600/20"
               >
                 <Phone className="h-5 w-5" aria-hidden="true" />
-                Call: (555) 123-4567
+                Call: (954) 289-6718
               </a>
               <Link
                 href="/contact"

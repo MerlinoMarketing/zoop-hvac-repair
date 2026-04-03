@@ -42,13 +42,13 @@ export const categories: ArticleCategory[] = [
   {
     name: 'Emergency Services',
     slug: 'emergency',
-    description: 'Quick response guides for roof emergencies and damage',
+    description: 'Quick response guides for AC emergencies and breakdowns',
     icon: '⚠️',
   },
   {
     name: 'Insurance & Claims',
     slug: 'insurance',
-    description: 'Navigate duct cleaning and work with adjusters',
+    description: 'Navigate HVAC warranty claims and service contracts',
     icon: '📋',
   },
   {
@@ -67,10 +67,10 @@ export const categories: ArticleCategory[] = [
 
 // Categorize articles based on their slug/content
 function getCategoryForArticle(slug: string): string {
-  const materialGuides = ['asphalt-shingle', 'metal-HVAC', 'tile-HVAC', 'ultimate-HVAC-materials', 'metal-vs-shingles'];
-  const repairGuides = ['ac-repair-guide', 'hvac-maintenance', 'seasonal-roof-maintenance', 'common-HVAC-problems', 'ac-repair-vs-replacement', 'signs-you-need-ac-installation'];
-  const emergencyGuides = ['emergency-roof-leak', 'hail-damage', 'emergency-hvac'];
-  const insuranceGuides = ['emergency-hvac-insurance', 'working-with-insurance-adjusters', 'understanding-roof-warranties'];
+  const materialGuides = ['central-ac', 'ductless-mini-split', 'heat-pump', 'ultimate-HVAC-materials', 'hvac-equipment-types'];
+  const repairGuides = ['ac-repair-guide', 'hvac-maintenance', 'seasonal-hvac-maintenance', 'common-HVAC-problems', 'ac-repair-vs-replacement', 'signs-you-need-ac-installation'];
+  const emergencyGuides = ['emergency-ac-breakdown', 'hail-damage', 'emergency-hvac'];
+  const insuranceGuides = ['emergency-hvac-insurance', 'working-with-insurance-adjusters', 'understanding-hvac-warranties'];
   const costGuides = ['ac-installation-cost'];
   const contractorGuides = ['how-to-choose-HVAC-contractor'];
 

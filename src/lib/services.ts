@@ -10,12 +10,12 @@ const servicesDirectory = path.join(process.cwd(), 'content', 'pages');
 function replaceTemplatePlaceholders(content: string): string {
   const replacements: Record<string, string> = {
     '[City]': 'Pompano Beach',
-    '[State]': 'IL',
+    '[State]': 'FL',
     '[Brand Name]': 'Pompano Beach House AC Repair',
-    '[Phone]': '(555) 123-4567',
-    '[Phone Number]': '(555) 123-4567',
-    '[SMS Number]': '(555) 123-4567',
-    '[X]': '25',
+    '[Phone]': '(954) 289-6718',
+    '[Phone Number]': '(954) 289-6718',
+    '[SMS Number]': '(954) 289-6718',
+    '[X]': '20',
     '[City 1]': 'Deerfield Beach',
     '[City 2]': 'Coconut Creek',
     '[City 3]': 'Parkland',

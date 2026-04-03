@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { getAllServices } from '@/lib/services';
-import { CheckCircle, Zap, Diamond, Shield, Phone, Mail, Building2, Home, Search, Hammer, CloudLightning, FileText } from 'lucide-react';
+import { CheckCircle, Zap, Diamond, Shield, Phone, Mail, Building2, Home, Search, Hammer, CloudLightning, FileText, Wind, Thermometer, Leaf, RefreshCw, Gauge } from 'lucide-react';
 
 export const metadata = {
   title: 'Our Services | Pompano Beach House AC Repair',
@@ -15,23 +15,31 @@ export default function ServicesPage() {
   const ServiceIcon = ({ slug }: { slug: string }) => {
     const iconClass = "h-8 w-8 text-cyan-600";
     switch (slug) {
-      case 'commercial-hvac': return <Building2 className={iconClass} aria-hidden="true" />;
-      case 'ac-repair': return <Home className={iconClass} aria-hidden="true" />;
+      case 'ac-repair': return <Hammer className={iconClass} aria-hidden="true" />;
+      case 'ac-installation': return <Home className={iconClass} aria-hidden="true" />;
       case 'hvac-maintenance': return <Search className={iconClass} aria-hidden="true" />;
-      case 'ac-installation': return <Hammer className={iconClass} aria-hidden="true" />;
-      case 'emergency-hvac-service': return <CloudLightning className={iconClass} aria-hidden="true" />;
-      case 'duct-cleaning': return <FileText className={iconClass} aria-hidden="true" />;
+      case 'emergency-ac-service': return <Zap className={iconClass} aria-hidden="true" />;
+      case 'duct-cleaning': return <Wind className={iconClass} aria-hidden="true" />;
+      case 'thermostat-installation': return <Thermometer className={iconClass} aria-hidden="true" />;
+      case 'indoor-air-quality': return <Leaf className={iconClass} aria-hidden="true" />;
+      case 'commercial-hvac': return <Building2 className={iconClass} aria-hidden="true" />;
+      case 'heat-pump-services': return <RefreshCw className={iconClass} aria-hidden="true" />;
+      case 'ac-refrigerant-recharge': return <Gauge className={iconClass} aria-hidden="true" />;
       default: return <Home className={iconClass} aria-hidden="true" />;
     }
   };
 
   const serviceImages: Record<string, string> = {
-    'commercial-hvac': '/images/services/commercial-hvac.jpg',
     'ac-repair': '/images/services/ac-repair.jpg',
-    'hvac-maintenance': '/images/services/hvac-maintenance.jpg',
     'ac-installation': '/images/services/ac-installation.jpg',
-    'emergency-hvac-service': '/images/services/emergency-hvac.jpg',
+    'hvac-maintenance': '/images/services/hvac-maintenance.jpg',
+    'emergency-ac-service': '/images/services/emergency-hvac.jpg',
     'duct-cleaning': '/images/services/duct-cleaning.jpg',
+    'thermostat-installation': '/images/services/ac-installation.jpg',
+    'indoor-air-quality': '/images/services/ac-repair.jpg',
+    'commercial-hvac': '/images/services/commercial-hvac.jpg',
+    'heat-pump-services': '/images/services/hvac-maintenance.jpg',
+    'ac-refrigerant-recharge': '/images/services/ac-repair.jpg',
   };
 
   return (
@@ -185,11 +193,11 @@ export default function ServicesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+15553343267"
+              href="tel:+19542896718"
               className="inline-flex items-center justify-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-slate-900 font-bold px-8 py-4 rounded-lg transition shadow-lg shadow-cyan-600/20 text-lg"
             >
               <Phone className="h-5 w-5" aria-hidden="true" />
-              Call Now: (555) 123-4567
+              Call Now: (954) 289-6718
             </a>
             <Link
               href="/contact"

@@ -6,16 +6,16 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact Pompano Beach House AC Repair | Free Roof Estimate',
-  description: 'Contact Pompano Beach House AC Repair for expert HVAC services. Free estimates, 24/7 emergency service. Call (555) 123-4567, text, or request quote online. Licensed & insured!',
+  title: 'Contact Pompano Beach House AC Repair | Free AC Estimate',
+  description: 'Contact Pompano Beach House AC Repair for expert HVAC services. Free estimates, 24/7 emergency service. Call (954) 289-6718, text, or request quote online. Licensed & insured!',
 };
 
 const contactMethods = [
   {
     icon: Phone,
     title: 'Call Us Today',
-    value: '(555) 123-4567',
-    href: 'tel:+15553343267',
+    value: '(954) 289-6718',
+    href: 'tel:+19542896718',
     description: 'Mon-Fri: 7:00 AM - 6:00 PM',
   },
   {
@@ -77,7 +77,7 @@ const faqs = [
   },
   {
     question: 'Do you offer emergency services?',
-    answer: 'Absolutely. Our 24/7 emergency line connects you with on-call crews for emergency tarping and leak mitigation. We typically arrive within 2-4 hours.',
+    answer: 'Absolutely. Our 24/7 emergency line connects you with on-call technicians for urgent AC breakdowns and system failures. We typically arrive within 2-4 hours.',
   },
   {
     question: 'Do you work with insurance companies?',
@@ -108,8 +108,8 @@ export default function ContactPage() {
             Get Your <span className="text-cyan-600">Free Estimate</span>
           </h1>
           <p className="text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto">
-            Ready to protect your home with a quality roof? Contact us today for a free,
-            no-obligation estimate from our expert team.
+            Ready to keep your home cool and comfortable? Contact us today for a free,
+            no-obligation HVAC estimate from our expert team.
           </p>
         </div>
       </section>
@@ -151,7 +151,7 @@ export default function ContactPage() {
               What Happens Next?
             </h2>
             <p className="text-xl text-slate-600">
-              Our simple 4-step process makes getting a new roof easy and stress-free.
+              Our simple 4-step process makes getting your HVAC service easy and stress-free.
             </p>
           </div>
 
@@ -244,7 +244,7 @@ export default function ContactPage() {
                 </div>
 
                 <p className="text-slate-500 text-sm pt-4">
-                  Don't see your city? Call us at (555) 123-4567 - we often extend service for
+                  Don't see your city? Call us at (954) 289-6718 - we often extend service for
                   projects and may have crews in your area.
                 </p>
               </div>
@@ -338,10 +338,10 @@ export default function ContactPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+15553343267"
+              href="tel:+19542896718"
               className="bg-cyan-600 hover:bg-cyan-700 text-slate-900 font-bold text-lg px-10 py-4 rounded-lg transition-all duration-200 hover:scale-105"
             >
-              Call: (555) 123-4567
+              Call: (954) 289-6718
             </a>
             <a
               href="#contact"

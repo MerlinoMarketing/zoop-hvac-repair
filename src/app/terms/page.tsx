@@ -40,8 +40,8 @@ export default function TermsPage() {
               <ul className="text-slate-600 space-y-2 mb-6">
                 <li>Residential AC repair and replacement</li>
                 <li>Commercial HVAC services</li>
-                <li>Roof inspections and assessments</li>
-                <li>Storm damage repair</li>
+                <li>HVAC inspections and assessments</li>
+                <li>Duct cleaning and indoor air quality services</li>
                 <li>Insurance claim assistance</li>
                 <li>Emergency HVAC services</li>
               </ul>
@@ -219,7 +219,7 @@ export default function TermsPage() {
               <div className="bg-slate-100/80 border border-slate-700 rounded-lg p-6 mb-6">
                 <ul className="text-slate-600 space-y-3">
                   <li><strong className="text-slate-900">Email:</strong> info@pompanobeachhouseacrepair.com</li>
-                  <li><strong className="text-slate-900">Phone:</strong> (555) 123-4567</li>
+                  <li><strong className="text-slate-900">Phone:</strong> (954) 289-6718</li>
                   <li><strong className="text-slate-900">Address:</strong> 123 Main Street, Pompano Beach, FL 62701</li>
                 </ul>
               </div>

@@ -46,7 +46,7 @@ export function ServiceQuoteForm({ serviceName }: ServiceQuoteFormProps) {
         setError('Failed to send request. Please try again or call us directly.');
       }
     } catch (err) {
-      setError('An error occurred. Please try again or call us at (555) 123-4567.');
+      setError('An error occurred. Please try again or call us at (954) 289-6718.');
     } finally {
       setIsSubmitting(false);
     }
@@ -107,7 +107,7 @@ export function ServiceQuoteForm({ serviceName }: ServiceQuoteFormProps) {
             value={formData.phone}
             onChange={handleChange}
             className="w-full px-4 py-3 bg-white border border-slate-700 rounded-lg text-slate-900 placeholder-slate-500 focus:outline-none focus:border-cyan-500 transition"
-            placeholder="(555) 123-4567"
+            placeholder="(954) 289-6718"
           />
         </div>
 
@@ -193,10 +193,10 @@ export function ServiceQuoteForm({ serviceName }: ServiceQuoteFormProps) {
           Prefer to call? We're here to help!
         </p>
         <a
-          href="tel:+15553343267"
+          href="tel:+19542896718"
           className="block text-center bg-slate-100 hover:bg-slate-200 text-slate-900 font-bold py-3 rounded-lg transition"
         >
-          Call: (555) 123-4567
+          Call: (954) 289-6718
         </a>
       </div>
     </div>

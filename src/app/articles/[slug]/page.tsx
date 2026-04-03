@@ -138,11 +138,11 @@ export default async function ArticlePage({ params }: PageProps) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+15553343267"
+              href="tel:+19542896718"
               className="inline-flex items-center justify-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-slate-900 font-bold px-8 py-4 rounded-lg transition shadow-lg shadow-cyan-600/20"
             >
               <Phone className="h-5 w-5" aria-hidden="true" />
-              Call Now: (555) 123-4567
+              Call Now: (954) 289-6718
             </a>
             <Link
               href="/contact"

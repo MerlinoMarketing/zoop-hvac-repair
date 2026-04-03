@@ -213,7 +213,7 @@ export default function WarrantyPage() {
                 <div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Contact Us</h3>
                   <p className="text-slate-600">
-                    Call us at <a href="tel:+15553343267" className="text-cyan-600 hover:text-cyan-500">(555) 123-4567</a> or
+                    Call us at <a href="tel:+19542896718" className="text-cyan-600 hover:text-cyan-500">(954) 289-6718</a> or
                     email <a href="mailto:warranty@pompanobeachhouseacrepair.com" className="text-cyan-600 hover:text-cyan-500">warranty@pompanobeachhouseacrepair.com</a> to
                     report the issue.
                   </p>
@@ -283,11 +283,11 @@ export default function WarrantyPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+15553343267"
+                href="tel:+19542896718"
                 className="inline-flex items-center justify-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-slate-900 font-bold px-8 py-4 rounded-lg transition shadow-lg shadow-cyan-600/20"
               >
                 <Phone className="h-5 w-5" aria-hidden="true" />
-                Call: (555) 123-4567
+                Call: (954) 289-6718
               </a>
               <Link
                 href="/contact"

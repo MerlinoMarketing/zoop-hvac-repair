@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About Pompano Beach House AC Repair | Trusted HVAC Contractor',
-  description: 'Meet Pompano Beach House AC Repair - your trusted HVAC contractor since 1998. Licensed, A+ BBB rated, 25+ years experience. Family-owned, locally committed. Learn our story!',
+  description: 'Meet Pompano Beach House AC Repair - your trusted HVAC Contractor since 1998. Licensed, A+ BBB rated, 25+ years experience. Family-owned, locally committed. Learn our story!',
 };
 
 const stats = [
@@ -142,7 +142,7 @@ export default function AboutPage() {
                   homeowners wanted honest, quality HVAC services from contractors who'd be around for the long haul.
                 </p>
                 <p>
-                  Starting with a single crew and a commitment to excellence, we built our reputation one roof
+                  Starting with a single crew and a commitment to excellence, we built our reputation one service call
                   at a time. Our first customer took a chance on a new company because we took the time to
                   explain options honestly and stood behind the work with a personal guarantee.
                 </p>
@@ -152,7 +152,7 @@ export default function AboutPage() {
                 </p>
                 <p className="font-semibold text-slate-900">
                   Today, we employ skilled HVAC professionals, operate multiple crews, and have installed
-                  or repaired over 5,000+ roofs across our service area.
+                  or repaired over 5,000+ AC systems across our service area.
                 </p>
               </div>
             </div>
@@ -358,10 +358,10 @@ export default function AboutPage() {
               Get Free Estimate
             </a>
             <a
-              href="tel:+15553343267"
+              href="tel:+19542896718"
               className="bg-slate-100 hover:bg-slate-200 text-slate-900 font-bold text-lg px-10 py-4 rounded-lg transition-all duration-200 border-2 border-slate-600 hover:border-slate-500"
             >
-              Call: (555) 123-4567
+              Call: (954) 289-6718
             </a>
           </div>
         </div>

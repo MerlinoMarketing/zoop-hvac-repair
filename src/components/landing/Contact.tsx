@@ -251,7 +251,7 @@ export function Contact() {
                   className={`w-full px-4 py-3 bg-slate-50 border rounded-lg text-slate-900 placeholder-slate-400 focus:outline-none focus:border-cyan-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
                     errors.phone ? 'border-red-500' : 'border-slate-600'
                   }`}
-                  placeholder="(555) 123-4567"
+                  placeholder="(954) 289-6718"
                 />
                 {errors.phone && (
                   <p className="mt-1.5 text-sm text-red-400 flex items-center gap-1">
@@ -343,7 +343,7 @@ export function Contact() {
               <div className="space-y-6">
                 {/* Phone */}
                 <a
-                  href="tel:+15553343267"
+                  href="tel:+19542896718"
                   className="flex items-start gap-4 group"
                 >
                   <div className="bg-cyan-600/20 p-3 rounded-lg group-hover:bg-cyan-600/30 transition-colors">
@@ -352,7 +352,7 @@ export function Contact() {
                   <div>
                     <div className="text-sm text-slate-500 mb-1">Call Us Today</div>
                     <div className="text-2xl font-bold text-slate-900 group-hover:text-cyan-600 transition-colors">
-                      (555) 123-4567
+                      (954) 289-6718
                     </div>
                   </div>
                 </a>
@@ -414,7 +414,7 @@ export function Contact() {
                 Storm damage? HVAC breakdown? We offer emergency HVAC services around the clock.
               </p>
               <a
-                href="tel:+15553343267"
+                href="tel:+19542896718"
                 className="inline-block bg-red-500 hover:bg-red-600 text-slate-900 font-bold px-6 py-3 rounded-lg transition-all duration-200"
               >
                 Call Emergency Line

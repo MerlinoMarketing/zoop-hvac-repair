@@ -16,79 +16,79 @@ const reviews = [
     rating: 5,
     date: 'December 2024',
     service: 'AC Installation',
-    review: 'Outstanding service from start to finish! The team was professional, punctual, and thorough. They completed our AC installation in just two days and the cleanup was impeccable. The new roof looks amazing and we already noticed improved energy efficiency. Highly recommend Pompano Beach House AC Repair!',
+    review: 'Outstanding service from start to finish! The team was professional, punctual, and thorough. They replaced our old 12 SEER system with a high-efficiency 16 SEER Carrier unit in just one day. Our electric bill dropped noticeably the first month. Highly recommend Pompano Beach House AC Repair!',
   },
   {
     name: 'Michael Chen',
-    location: 'Deerfield Beach, IL',
+    location: 'Deerfield Beach, FL',
     rating: 5,
     date: 'November 2024',
-    service: 'Emergency HVAC Service',
-    review: 'After a severe emergency HVACd our HVAC system, Pompano Beach House AC Repair responded quickly and helped us navigate the duct cleaning process. They were patient, thorough, and made sure we got the coverage we deserved. The repairs were completed professionally and our HVAC system is better than ever.',
+    service: 'Emergency AC Service',
+    review: 'Our AC completely died on a Saturday night with company over. Called Pompano Beach House AC Repair and a technician arrived within an hour. Turned out to be a blown capacitor — he had the part on his truck and had us cool again in under 30 minutes. Reasonable price and lifesaving response time.',
   },
   {
     name: 'Emily Rodriguez',
-    location: 'Coconut Creek, IL',
+    location: 'Coconut Creek, FL',
     rating: 5,
     date: 'November 2024',
     service: 'Commercial HVAC',
-    review: 'We hired Pompano Beach House AC Repair for our commercial building and couldn\'t be happier. They worked around our business hours, minimized disruption, and delivered exceptional quality. The project manager kept us informed every step of the way. True professionals.',
+    review: 'We hired Pompano Beach House AC Repair for our dental office HVAC maintenance and couldn\'t be happier. They work around our patient hours, the technicians are clean and professional, and they keep our system running perfectly. Great partner for any business.',
   },
   {
     name: 'Robert Anderson',
-    location: 'Parkland, IL',
+    location: 'Parkland, FL',
     rating: 5,
     date: 'October 2024',
-    service: 'HVAC Inspection',
-    review: 'Very thorough inspection with detailed photos and explanation of my roof\'s condition. They didn\'t try to upsell me on unnecessary work and were honest about what needed immediate attention versus what could wait. Trustworthy company!',
+    service: 'HVAC Maintenance',
+    review: 'Very thorough tune-up with detailed explanation of everything they checked. They found a failing capacitor and replaced it before it left us without AC. Honest about what needed attention versus what could wait. Signed up for their annual maintenance plan.',
   },
   {
     name: 'Jennifer Martinez',
-    location: 'Oakwood, IL',
+    location: 'Lighthouse Point, FL',
     rating: 5,
     date: 'October 2024',
-    service: 'Emergency Leak Repair',
-    review: 'Called them on a Sunday evening with a major leak and they had someone out within 2 hours. Quick, professional emergency repair that saved our home from water damage. Fair pricing and excellent workmanship. They earned a customer for life!',
+    service: 'AC Repair',
+    review: 'Called them when our AC started blowing warm air. Technician diagnosed a refrigerant leak, found and repaired it, and recharged the system — all in one visit. Fair pricing and excellent workmanship. They earned a customer for life!',
   },
   {
     name: 'David Thompson',
-    location: 'Maple Grove, IL',
+    location: 'Margate, FL',
     rating: 5,
     date: 'September 2024',
     service: 'AC Installation',
-    review: 'Pompano Beach House AC Repair replaced our 25-year-old roof and the transformation is incredible. The crew was respectful, hardworking, and cleaned up everything daily. The estimate was accurate with no surprise charges. Worth every penny!',
+    review: 'Pompano Beach House AC Repair replaced our 20-year-old system with a new Trane unit and the difference is incredible. The house cools faster, runs quieter, and our energy bills are way down. The estimate was accurate with no surprise charges. Worth every penny!',
   },
   {
     name: 'Lisa Wang',
-    location: 'Weston, IL',
+    location: 'Coral Springs, FL',
     rating: 5,
     date: 'September 2024',
-    service: 'Gutter Installation',
-    review: 'Fantastic experience! They helped us choose the right gutter system for our home and the installation was flawless. The team took pride in their work and it shows. Our home is now protected from water damage and looks great too.',
+    service: 'Thermostat Installation',
+    review: 'Fantastic experience! They installed a Nest thermostat and walked us through all the features. The scheduling and remote control have made a huge difference in our comfort and energy savings. Simple upgrade with a big impact.',
   },
   {
     name: 'James Wilson',
-    location: 'Davie, IL',
+    location: 'Fort Lauderdale, FL',
     rating: 5,
     date: 'August 2024',
     service: 'Duct Cleaning',
-    review: 'Pompano Beach House AC Repair helped us through the entire duct cleaning process after hail damage. They met with the adjuster, provided detailed documentation, and made sure everything was covered. Professional and genuinely caring team.',
+    review: 'Had our ducts cleaned after noticing musty smells when the AC kicked on. The team was thorough — they showed us camera footage of the before and after. The air quality improvement was immediate. Professional and genuinely caring team.',
   },
   {
     name: 'Amanda Foster',
-    location: 'Cedar Creek, IL',
+    location: 'Tamarac, FL',
     rating: 5,
     date: 'August 2024',
     service: 'AC Repair',
-    review: 'Quick, efficient repair of damaged shingles. They matched the existing materials perfectly and you can\'t even tell where the repair was made. Reasonable pricing and excellent communication throughout the process.',
+    review: 'Quick, efficient repair of our compressor issue. The technician explained exactly what was wrong and what it would cost before starting any work. Transparent pricing and great communication throughout the process. Will call them again.',
   },
   {
     name: 'Christopher Lee',
-    location: 'Brookside, IL',
+    location: 'Boca Raton, FL',
     rating: 5,
     date: 'July 2024',
-    service: 'AC Installation',
-    review: 'From the initial consultation to final cleanup, Pompano Beach House AC Repair exceeded our expectations. They helped us select high-quality materials within our budget and the installation was seamless. The crew was respectful of our property and neighbors. Highly professional!',
+    service: 'Heat Pump Installation',
+    review: 'From the initial consultation to final walkthrough, Pompano Beach House AC Repair exceeded our expectations. They helped us select the right heat pump system within our budget and the installation was flawless. Our heating and cooling costs are both lower now. Highly professional!',
   },
 ];
 
@@ -96,7 +96,7 @@ const stats = [
   { number: '500+', label: 'Satisfied Customers' },
   { number: '4.9/5', label: 'Average Rating' },
   { number: '98%', label: 'Would Recommend' },
-  { number: '25+', label: 'Years Experience' },
+  { number: '20+', label: 'Years Experience' },
 ];
 
 export default function ReviewsPage() {
@@ -229,11 +229,11 @@ export default function ReviewsPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+15553343267"
+                href="tel:+19542896718"
                 className="inline-flex items-center justify-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-slate-900 font-bold px-8 py-4 rounded-lg transition shadow-lg shadow-cyan-600/20"
               >
                 <Phone className="h-5 w-5" aria-hidden="true" />
-                Call: (555) 123-4567
+                Call: (954) 289-6718
               </a>
               <Link
                 href="/contact"

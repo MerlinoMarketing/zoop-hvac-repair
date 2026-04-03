@@ -47,7 +47,7 @@ const positions = [
     title: 'HVAC Installer',
     type: 'Full-Time',
     experience: '2+ years preferred',
-    description: 'Experienced roofer to join our installation team. Must have knowledge of various HVAC systems and materials.',
+    description: 'Experienced HVAC technician to join our installation team. Must have knowledge of various HVAC systems and materials.',
     requirements: [
       'Minimum 2 years HVAC experience',
       'Valid driver\'s license',
@@ -60,7 +60,7 @@ const positions = [
     title: 'HVAC Foreman',
     type: 'Full-Time',
     experience: '5+ years required',
-    description: 'Lead our HVAC systeming crews with strong leadership and technical expertise. Oversee job sites and ensure quality standards.',
+    description: 'Lead our HVAC installation crews with strong leadership and technical expertise. Oversee job sites and ensure quality standards.',
     requirements: [
       'Minimum 5 years HVAC experience',
       'Proven leadership skills',
@@ -96,7 +96,7 @@ const positions = [
     ],
   },
   {
-    title: 'Apprentice Roofer',
+    title: 'Apprentice HVAC Technician',
     type: 'Full-Time',
     experience: 'Entry Level',
     description: 'Learn the HVAC trade from experienced professionals. Full training provided for motivated individuals.',
@@ -247,10 +247,10 @@ export default function CareersPage() {
               <div className="bg-slate-50/80 border border-slate-700 rounded-lg p-6">
                 <h3 className="font-bold text-slate-900 mb-3">Call to Inquire</h3>
                 <a
-                  href="tel:+15553343267"
+                  href="tel:+19542896718"
                   className="text-cyan-600 hover:text-cyan-500 transition"
                 >
-                  (555) 123-4567
+                  (954) 289-6718
                 </a>
               </div>
             </div>

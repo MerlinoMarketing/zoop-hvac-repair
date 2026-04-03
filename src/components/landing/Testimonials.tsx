@@ -15,7 +15,7 @@ const testimonials = [
     name: 'Michael Chen',
     location: 'Deerfield Beach',
     rating: 5,
-    quote: 'After emergency HVAC, they worked directly with our insurance company and made the whole process stress-free. Great communication and excellent workmanship. Our roof looks better than ever!',
+    quote: 'After an emergency HVAC breakdown, they worked directly with our warranty company and made the whole process stress-free. Great communication and excellent workmanship. Our AC runs perfectly now!',
     project: 'Emergency HVAC Service',
     image: '/images/testimonials/houses/house-2.jpg',
     avatar: '/images/testimonials/avatars/avatar-2.jpg'
@@ -51,7 +51,7 @@ const testimonials = [
     name: 'Robert Garcia',
     location: 'Parkland',
     rating: 5,
-    quote: 'Emergency AC repair after a tree fell on our house. They came out the same day and had it secured and waterproofed. Then completed the full repair perfectly. Absolutely reliable!',
+    quote: 'Emergency AC repair after our system completely broke down during a heatwave. They came out the same day and had it diagnosed and running again. Then completed the full repair perfectly. Absolutely reliable!',
     project: 'Emergency AC Repair',
     image: '/images/testimonials/houses/house-6.jpg',
     avatar: '/images/testimonials/avatars/avatar-6.jpg'

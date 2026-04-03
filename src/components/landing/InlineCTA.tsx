@@ -12,7 +12,7 @@ interface InlineCTAProps {
 export function InlineCTA({
   title = "Get Your Free Estimate Today",
   subtitle = "No obligation. Fast response.",
-  phone = "(555) 123-4567",
+  phone = "(954) 289-6718",
   variant = 'primary'
 }: InlineCTAProps) {
   const bgClass = variant === 'urgent'

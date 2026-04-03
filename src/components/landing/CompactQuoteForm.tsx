@@ -87,7 +87,7 @@ export function CompactQuoteForm({ serviceName }: CompactQuoteFormProps) {
       <div className="mt-4 pt-4 border-t border-cyan-500/20 flex items-center justify-center gap-2 text-sm">
         <Phone className="h-4 w-4 text-cyan-600" />
         <span className="text-slate-600">Or call now:</span>
-        <a href="tel:+15553343267" className="text-cyan-600 font-bold hover:text-cyan-500">(555) 123-4567</a>
+        <a href="tel:+19542896718" className="text-cyan-600 font-bold hover:text-cyan-500">(954) 289-6718</a>
       </div>
     </div>
   );

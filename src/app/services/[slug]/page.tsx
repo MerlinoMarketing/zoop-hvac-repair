@@ -26,24 +26,24 @@ const serviceData: Record<string, {
     beforeAfter: {
       before: '/images/before-after/replacement-before-1.jpg',
       after: '/images/before-after/replacement-after-1.jpg',
-      title: 'Complete AC Installation',
+      title: 'Complete AC System Replacement',
     },
     features: [
-      'GAF & Owens Corning certified installers',
-      'Complete tear-off and inspection',
-      '25-50 year manufacturer warranties',
-      'Ice & water shield protection',
-      'New flashing and ventilation',
+      'Manual J load calculation for proper sizing',
+      'All major brands: Carrier, Trane, Lennox, Rheem',
+      'Up to 25-year manufacturer warranties',
+      'High-efficiency SEER rated systems',
+      'Ductwork inspection and modification',
       'Job site cleanup guarantee',
     ],
     testimonial: {
-      quote: 'They replaced our 30-year-old roof in just 2 days. The crew was professional and cleaned up everything. Our home looks brand new!',
+      quote: 'They replaced our old 10 SEER system with a 16 SEER unit. Our electric bill dropped by over $80 a month. Professional crew, clean install, highly recommend.',
       name: 'Robert & Susan M.',
       location: 'Pompano Beach, FL',
     },
     stats: [
-      { value: '500+', label: 'Roofs Replaced' },
-      { value: '2-3', label: 'Day Completion' },
+      { value: '500+', label: 'Systems Installed' },
+      { value: '1-2', label: 'Day Completion' },
       { value: '25yr', label: 'Warranty' },
     ],
   },
@@ -52,51 +52,51 @@ const serviceData: Record<string, {
     beforeAfter: {
       before: '/images/before-after/repair-before-1.jpg',
       after: '/images/before-after/repair-after-1.jpg',
-      title: 'Roof Leak Repair',
+      title: 'AC System Repair',
     },
     features: [
       'Same-day emergency repairs',
-      'Leak detection technology',
-      'Shingle matching guarantee',
-      'Flashing and vent repairs',
-      'Gutter and downspout fixes',
-      '5-year repair warranty',
+      'Electronic diagnostic testing',
+      'All major brands serviced',
+      'Capacitor, compressor, and motor repairs',
+      'Refrigerant leak detection and recharge',
+      '1-year repair warranty',
     ],
     testimonial: {
-      quote: 'Found our leak in 10 minutes and had it fixed the same day. Saved us thousands in potential water damage!',
+      quote: 'AC stopped working on the hottest day of the year. They came out the same afternoon, found a blown capacitor, and had us cool again in under an hour. Great service!',
       name: 'Jennifer K.',
-      location: 'Deerfield Beach, IL',
+      location: 'Deerfield Beach, FL',
     },
     stats: [
       { value: '24hr', label: 'Response Time' },
       { value: '98%', label: 'First-Fix Rate' },
-      { value: '5yr', label: 'Warranty' },
+      { value: '1yr', label: 'Warranty' },
     ],
   },
-  'emergency-hvac-service': {
+  'emergency-ac-service': {
     heroImage: '/images/services/emergency-hvac.jpg',
     beforeAfter: {
       before: '/images/before-after/storm-before-1.jpg',
       after: '/images/before-after/storm-after-1.jpg',
-      title: 'Emergency HVAC Restoration',
+      title: 'Emergency AC Restoration',
     },
     features: [
       '24/7 emergency response',
-      'Free emergency HVAC inspection',
-      'Insurance claim assistance',
-      'Emergency tarping service',
-      'Hail and wind damage experts',
-      'Direct insurance billing',
+      'Rapid 60-90 minute dispatch',
+      'Fully stocked service vehicles',
+      'Temporary cooling solutions available',
+      'All common parts carried on truck',
+      'No overtime fees for plan members',
     ],
     testimonial: {
-      quote: 'After the hail storm, they had our HVAC system tarped within 2 hours and handled everything with our insurance. Zero hassle.',
+      quote: 'Our AC died at 11 PM on a Friday night with a houseful of guests. They had a tech here in just over an hour and fixed the compressor issue on the spot. Lifesavers!',
       name: 'Michael T.',
       location: 'Pompano Beach, FL',
     },
     stats: [
-      { value: '2hr', label: 'Emergency Response' },
-      { value: '100%', label: 'Claims Approved' },
-      { value: '$0', label: 'Out of Pocket' },
+      { value: '60min', label: 'Avg Response' },
+      { value: '24/7', label: 'Availability' },
+      { value: '95%', label: 'Same-Visit Fix' },
     ],
   },
   'hvac-maintenance': {
@@ -104,25 +104,25 @@ const serviceData: Record<string, {
     beforeAfter: {
       before: '/images/before-after/repair-before-1.jpg',
       after: '/images/before-after/repair-after-1.jpg',
-      title: 'Professional Inspection',
+      title: 'Professional AC Tune-Up',
     },
     features: [
       'Comprehensive 21-point inspection',
-      'Drone and thermal imaging',
-      'Detailed photo documentation',
-      'Written condition report',
-      'Repair cost estimates',
-      'Maintenance recommendations',
+      'Coil cleaning and refrigerant check',
+      'Electrical testing and tightening',
+      'Condensate drain treatment',
+      'Filter replacement included',
+      'Written system condition report',
     ],
     testimonial: {
-      quote: 'Their inspection found issues the previous inspector missed. Helped us negotiate $8,000 off our home purchase!',
+      quote: 'Their maintenance plan caught a failing capacitor before it left us without AC in August. The annual tune-up has definitely saved us from emergency repairs.',
       name: 'David & Lisa R.',
-      location: 'Coconut Creek, IL',
+      location: 'Coconut Creek, FL',
     },
     stats: [
-      { value: 'FREE', label: 'Inspection' },
-      { value: '21pt', label: 'Checklist' },
-      { value: '48hr', label: 'Report Delivery' },
+      { value: '15%', label: 'Energy Savings' },
+      { value: '21pt', label: 'Inspection' },
+      { value: '3-5yr', label: 'Life Extension' },
     ],
   },
   'commercial-hvac': {
@@ -130,24 +130,24 @@ const serviceData: Record<string, {
     beforeAfter: {
       before: '/images/before-after/commercial-before-1.jpg',
       after: '/images/before-after/commercial-after-1.jpg',
-      title: 'Commercial Flat Roof',
+      title: 'Commercial HVAC Installation',
     },
     features: [
-      'TPO, EPDM, and PVC systems',
+      'Rooftop unit service and installation',
       'Minimal business disruption',
-      'Preventative maintenance plans',
-      'After-hours installation',
+      'Preventive maintenance contracts',
+      'After-hours and weekend service',
       'Multi-location capabilities',
-      '20-year commercial warranties',
+      'Building automation integration',
     ],
     testimonial: {
-      quote: 'Replaced our warehouse roof over a weekend. Didn\'t miss a single day of operations. True professionals.',
-      name: 'Thompson Manufacturing',
-      location: 'Pompano Beach Industrial Park',
+      quote: 'They service all three of our office locations under one contract. Response time is always fast and they work around our business hours. Reliable partner for our company.',
+      name: 'Thompson Properties LLC',
+      location: 'Pompano Beach, FL',
     },
     stats: [
-      { value: '15k+', label: 'Sq Ft Capacity' },
-      { value: '20yr', label: 'Warranty' },
+      { value: '200+', label: 'Businesses Served' },
+      { value: '4hr', label: 'Emergency Response' },
       { value: '0', label: 'Days Downtime' },
     ],
   },
@@ -156,25 +156,129 @@ const serviceData: Record<string, {
     beforeAfter: {
       before: '/images/before-after/storm-before-1.jpg',
       after: '/images/before-after/storm-after-1.jpg',
-      title: 'Insurance Claim Success',
+      title: 'Professional Duct Cleaning',
     },
     features: [
-      'Free claim consultation',
-      'Detailed damage documentation',
-      'Meet with your adjuster',
-      'Supplement negotiations',
-      'Appeal denied claims',
-      'No upfront costs',
+      'NADCA-recommended source removal method',
+      'Camera inspection before and after',
+      'Supply and return duct cleaning',
+      'Air handler and coil cleaning',
+      'Optional antimicrobial treatment',
+      'Detailed photo documentation',
     ],
     testimonial: {
-      quote: 'Our claim was initially denied. They helped us appeal and got the full replacement covered. Saved us $18,000!',
+      quote: 'Had our ducts cleaned after renovations and the difference in air quality was immediate. No more construction dust smell. They even showed us camera footage of the before and after.',
       name: 'Patricia W.',
-      location: 'Parkland, IL',
+      location: 'Parkland, FL',
     },
     stats: [
-      { value: '95%', label: 'Approval Rate' },
-      { value: '$0', label: 'Your Cost' },
-      { value: '14', label: 'Day Average' },
+      { value: '99%', label: 'Contaminant Removal' },
+      { value: '3-5hr', label: 'Service Time' },
+      { value: '3-5yr', label: 'Recommended Interval' },
+    ],
+  },
+  'thermostat-installation': {
+    heroImage: '/images/services/ac-installation.jpg',
+    beforeAfter: {
+      before: '/images/before-after/repair-before-1.jpg',
+      after: '/images/before-after/repair-after-1.jpg',
+      title: 'Smart Thermostat Upgrade',
+    },
+    features: [
+      'Ecobee, Nest, and Honeywell certified',
+      'Wi-Fi setup and app configuration',
+      'Wiring compatibility assessment',
+      'Optimal placement evaluation',
+      'Schedule programming assistance',
+      'Integration with home automation',
+    ],
+    testimonial: {
+      quote: 'Upgraded to a Nest thermostat and can now control our AC from the office. Energy bills dropped noticeably the first month. Simple upgrade, big impact.',
+      name: 'Angela R.',
+      location: 'Lighthouse Point, FL',
+    },
+    stats: [
+      { value: '23%', label: 'Avg Energy Savings' },
+      { value: '1hr', label: 'Installation Time' },
+      { value: '100%', label: 'Smart Home Ready' },
+    ],
+  },
+  'indoor-air-quality': {
+    heroImage: '/images/services/ac-repair.jpg',
+    beforeAfter: {
+      before: '/images/before-after/repair-before-1.jpg',
+      after: '/images/before-after/repair-after-1.jpg',
+      title: 'Air Quality Improvement',
+    },
+    features: [
+      'Whole-home air purification systems',
+      'UV germicidal light installation',
+      'Advanced MERV and HEPA filtration',
+      'Whole-home dehumidifier installation',
+      'Energy recovery ventilator setup',
+      'Air quality testing and monitoring',
+    ],
+    testimonial: {
+      quote: 'My daughter has asthma and since they installed the air purifier and UV light, her symptoms have improved dramatically. The air in our home feels completely different.',
+      name: 'Carmen L.',
+      location: 'Margate, FL',
+    },
+    stats: [
+      { value: '99.98%', label: 'Particle Removal' },
+      { value: '5x', label: 'Cleaner Air' },
+      { value: '45-55%', label: 'Ideal Humidity' },
+    ],
+  },
+  'heat-pump-services': {
+    heroImage: '/images/services/hvac-maintenance.jpg',
+    beforeAfter: {
+      before: '/images/before-after/replacement-before-1.jpg',
+      after: '/images/before-after/replacement-after-1.jpg',
+      title: 'Heat Pump Installation',
+    },
+    features: [
+      'Air-source and ductless options',
+      'Heating and cooling in one system',
+      '50% lower heating energy costs',
+      'All major brands available',
+      'Proper sizing with load calculations',
+      'Year-round comfort solution',
+    ],
+    testimonial: {
+      quote: 'Switched from our old AC and electric heat strips to a heat pump. Our winter electric bills dropped significantly and the cooling works just as well. Wish we had done it sooner.',
+      name: 'Frank & Diane S.',
+      location: 'Coral Springs, FL',
+    },
+    stats: [
+      { value: '50%', label: 'Heating Savings' },
+      { value: '2-in-1', label: 'Heat + Cool' },
+      { value: '15yr', label: 'Avg Lifespan' },
+    ],
+  },
+  'ac-refrigerant-recharge': {
+    heroImage: '/images/services/ac-repair.jpg',
+    beforeAfter: {
+      before: '/images/before-after/repair-before-1.jpg',
+      after: '/images/before-after/repair-after-1.jpg',
+      title: 'Refrigerant Leak Repair',
+    },
+    features: [
+      'Electronic leak detection equipment',
+      'UV dye and nitrogen pressure testing',
+      'EPA-certified refrigerant handling',
+      'R-410A and R-22 system service',
+      'Precise manufacturer-spec recharge',
+      'Superheat and subcooling verification',
+    ],
+    testimonial: {
+      quote: 'Two other companies just added refrigerant without finding the leak. These guys found a pinhole in the evaporator coil, repaired it, and the system has held charge perfectly for over a year.',
+      name: 'Steve H.',
+      location: 'Pompano Beach, FL',
+    },
+    stats: [
+      { value: '100%', label: 'Leak Found Rate' },
+      { value: 'EPA', label: 'Certified Techs' },
+      { value: '1yr', label: 'Leak Warranty' },
     ],
   },
 };
@@ -241,7 +345,7 @@ export default async function ServicePage({ params }: PageProps) {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="tel:+15553343267"
+                href="tel:+19542896718"
                 className="inline-flex items-center gap-2 bg-cyan-600 hover:bg-cyan-500 text-slate-900 font-bold px-8 py-4 rounded-xl transition shadow-lg"
               >
                 <Phone className="w-5 h-5" />
@@ -266,7 +370,7 @@ export default async function ServicePage({ params }: PageProps) {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-cyan-700" />
-              <span className="font-semibold text-slate-700">25+ Years Experience</span>
+              <span className="font-semibold text-slate-700">20+ Years Experience</span>
             </div>
             <div className="flex items-center gap-2">
               <Users className="w-6 h-6 text-blue-600" />
@@ -370,8 +474,8 @@ export default async function ServicePage({ params }: PageProps) {
                 <p className="text-slate-500 text-sm">
                   Or call us directly
                 </p>
-                <a href="tel:+15553343267" className="text-2xl font-bold text-slate-900 hover:text-cyan-700 transition">
-                  (555) 123-4567
+                <a href="tel:+19542896718" className="text-2xl font-bold text-slate-900 hover:text-cyan-700 transition">
+                  (954) 289-6718
                 </a>
               </div>
             </div>

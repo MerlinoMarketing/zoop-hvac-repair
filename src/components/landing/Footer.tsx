@@ -50,11 +50,11 @@ export function Footer() {
             {/* Contact Info */}
             <div className="space-y-3">
               <a
-                href="tel:+15553343267"
+                href="tel:+19542896718"
                 className="flex items-center gap-3 text-slate-600 hover:text-cyan-600 transition-colors"
               >
                 <Phone className="h-5 w-5" />
-                <span>(555) 123-4567</span>
+                <span>(954) 289-6718</span>
               </a>
               <a
                 href="mailto:info@pompanobeachhouseacrepair.com"

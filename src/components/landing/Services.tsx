@@ -1,131 +1,94 @@
-import { Wrench, Home, Cloud, ClipboardCheck, FileText, ArrowRight } from 'lucide-react';
-import Image from 'next/image';
+import { Wrench, AirVent, Settings, Zap, Wind, Thermometer, Leaf, Building2, RefreshCw, Gauge, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
+import { SERVICES } from '@/lib/constants';
 
-const services = [
-  {
-    icon: Wrench,
-    title: 'AC Repair',
-    description: 'Fast, reliable repairs for leaks, damaged shingles, and emergency HVAC. We fix problems before they become major issues.',
-    href: '/services/ac-repair',
-    features: ['Same-Day Service', 'All Makes & Models', 'Upfront Pricing'],
-    image: '/images/services/ac-repair.jpg'
-  },
-  {
-    icon: Home,
-    title: 'AC Installation',
-    description: 'Complete AC installation with premium materials. Transform your home with a brand new, durable HVAC system.',
-    href: '/services/ac-installation',
-    features: ['Energy Star Equipment', 'Manufacturer Warranty', 'Professional Installation'],
-    image: '/images/services/ac-installation.jpg'
-  },
-  {
-    icon: Cloud,
-    title: 'Emergency HVAC',
-    description: 'Comprehensive emergency HVAC assessment and restoration. We work directly with your insurance company.',
-    href: '/services/emergency-hvac-service',
-    features: ['Duct Cleaning', 'Fast Response', 'No Extra Charge'],
-    image: '/images/services/emergency-hvac.jpg'
-  },
-  {
-    icon: ClipboardCheck,
-    title: 'HVAC Maintenance',
-    description: 'Thorough HVAC maintenance with detailed reports. Catch problems early and extend your HVAC system\'s lifespan.',
-    href: '/services/hvac-maintenance',
-    features: ['Comprehensive Tune-Up', 'Filter Replacement', 'Performance Testing'],
-    image: '/images/services/hvac-maintenance.jpg'
-  },
-  {
-    icon: FileText,
-    title: 'Duct Cleaning',
-    description: 'Professional duct cleaning to improve air quality and system efficiency. Remove dust, allergens, and debris from your ductwork.',
-    href: '/services/duct-cleaning',
-    features: ['Improved Air Quality', 'Sanitization', 'Allergen Removal'],
-    image: '/images/services/duct-cleaning.jpg'
-  },
-];
+const iconMap: Record<string, React.ElementType> = {
+  Wrench,
+  AirVent,
+  Settings,
+  Zap,
+  Wind,
+  Thermometer,
+  Leaf,
+  Building2,
+  RefreshCw,
+  Gauge,
+};
 
 export function Services() {
   return (
     <section id="services" className="py-20 bg-slate-50">
-      <div className="container mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-            Comprehensive HVAC Services
+          <p className="text-[#FF8C42] font-semibold text-sm uppercase tracking-wider mb-3">Our Services</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
+            Complete HVAC Solutions for
+            <span className="text-[#1B6B93]"> Pompano Beach</span>
           </h2>
-          <p className="text-xl text-slate-600">
-            From minor repairs to complete replacements, we handle all your HVAC needs with expertise and care.
+          <p className="text-lg text-slate-600 leading-relaxed">
+            From routine maintenance to emergency repairs, our NATE-certified technicians handle every
+            aspect of your home and commercial cooling needs.
           </p>
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {services.map((service, index) => (
-            <a
-              key={index}
-              href={service.href}
-              className="group bg-slate-100/80 hover:bg-slate-100 border border-slate-600/50 hover:border-cyan-600/50 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-cyan-600/10 hover:-translate-y-1"
-            >
-              {/* Service Image */}
-              <div className="relative h-48 overflow-hidden">
-                <Image
-                  src={service.image}
-                  alt={`${service.title} - Professional HVAC service`}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent"></div>
-
-                {/* Icon Overlay */}
-                <div className="absolute bottom-4 left-4">
-                  <div className="bg-cyan-600/90 group-hover:bg-cyan-600 w-14 h-14 rounded-lg flex items-center justify-center transition-colors shadow-lg">
-                    <service.icon className="h-7 w-7 text-slate-900" />
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
+          {SERVICES.map((service, index) => {
+            const Icon = iconMap[service.icon] || Wrench;
+            return (
+              <Link
+                key={index}
+                href={`/services/${service.slug}`}
+                className="group bg-white border border-slate-200 hover:border-[#1B6B93]/30 rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover:shadow-[#1B6B93]/5 hover:-translate-y-1"
+              >
+                {/* Icon */}
+                <div className="mb-5">
+                  <div className="bg-[#1B6B93]/5 group-hover:bg-[#1B6B93]/10 w-14 h-14 rounded-xl flex items-center justify-center transition-colors">
+                    <Icon className="h-7 w-7 text-[#1B6B93]" />
                   </div>
                 </div>
-              </div>
 
-              {/* Content */}
-              <div className="p-8">
                 {/* Title */}
-                <h3 className="text-2xl font-bold text-slate-900 mb-3 group-hover:text-cyan-600 transition-colors">
+                <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-[#1B6B93] transition-colors">
                   {service.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-slate-600 mb-6 leading-relaxed">
-                  {service.description}
+                <p className="text-slate-500 text-sm leading-relaxed mb-4">
+                  {service.shortDesc}
                 </p>
 
-                {/* Features */}
-                <ul className="space-y-2 mb-6">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center gap-2 text-sm text-slate-500">
-                      <div className="h-1.5 w-1.5 rounded-full bg-cyan-500"></div>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-
                 {/* CTA */}
-                <div className="flex items-center gap-2 text-cyan-600 font-semibold group-hover:gap-3 transition-all">
+                <div className="flex items-center gap-1.5 text-[#1B6B93] font-semibold text-sm group-hover:gap-2.5 transition-all">
                   Learn More
                   <ArrowRight className="h-4 w-4" />
                 </div>
-              </div>
-            </a>
-          ))}
+              </Link>
+            );
+          })}
+
+          {/* View All CTA Card */}
+          <Link
+            href="/services"
+            className="group bg-gradient-to-br from-[#1B6B93] to-[#155A7D] rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col justify-center items-center text-center"
+          >
+            <div className="bg-white/10 w-14 h-14 rounded-xl flex items-center justify-center mb-4">
+              <ArrowRight className="h-7 w-7 text-white" />
+            </div>
+            <h3 className="text-lg font-bold text-white mb-2">View All Services</h3>
+            <p className="text-white/70 text-sm">See our complete range of HVAC solutions</p>
+          </Link>
         </div>
 
         {/* Bottom CTA */}
-        <div className="text-center mt-16">
-          <p className="text-slate-600 mb-6 text-lg">
-            Not sure which service you need?
-          </p>
+        <div className="text-center mt-14">
+          <p className="text-slate-500 mb-4">Not sure which service you need?</p>
           <a
             href="#contact"
-            className="inline-block bg-cyan-600 hover:bg-cyan-700 text-slate-900 font-bold text-lg px-8 py-4 rounded-lg transition-all duration-200 hover:scale-105"
+            className="inline-block bg-[#FF8C42] hover:bg-[#E67A35] text-white font-bold px-8 py-3.5 rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-orange-200/50"
           >
-            Get a Free Consultation
+            Schedule a Free Consultation
           </a>
         </div>
       </div>

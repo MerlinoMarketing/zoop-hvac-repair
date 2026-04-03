@@ -113,11 +113,11 @@ export function ServiceAreas() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+15553343267"
+                href="tel:+19542896718"
                 className="inline-flex items-center justify-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-slate-900 font-bold text-lg px-8 py-4 rounded-lg transition-all duration-200 hover:scale-105"
               >
                 <Phone className="h-5 w-5" />
-                Call (555) 123-4567
+                Call (954) 289-6718
               </a>
               <a
                 href="#contact"

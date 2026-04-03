@@ -279,7 +279,7 @@ export default function AccessibilityPage() {
               <div className="bg-slate-100/80 border border-slate-700 rounded-lg p-6 mb-6">
                 <ul className="space-y-3 text-slate-600">
                   <li><strong className="text-slate-900">Email:</strong> accessibility@pompanobeachhouseacrepair.com</li>
-                  <li><strong className="text-slate-900">Phone:</strong> (555) 123-4567</li>
+                  <li><strong className="text-slate-900">Phone:</strong> (954) 289-6718</li>
                   <li><strong className="text-slate-900">Mail:</strong> 123 Main Street, Pompano Beach, FL 62701</li>
                 </ul>
               </div>
