@@ -9,17 +9,17 @@ const servicesDirectory = path.join(process.cwd(), 'content', 'pages');
 // Replace template placeholders with real business info
 function replaceTemplatePlaceholders(content: string): string {
   const replacements: Record<string, string> = {
-    '[City]': 'Pompano Beach',
-    '[State]': 'FL',
-    '[Brand Name]': 'Pompano Beach House AC Repair',
-    '[Phone]': '(954) 289-6718',
-    '[Phone Number]': '(954) 289-6718',
-    '[SMS Number]': '(954) 289-6718',
+    '[City]': 'El Mirage',
+    '[State]': 'AZ',
+    '[Brand Name]': 'Zoop HVAC Repair',
+    '[Phone]': '(623) 555-0147',
+    '[Phone Number]': '(623) 555-0147',
+    '[SMS Number]': '(623) 555-0147',
     '[X]': '20',
-    '[City 1]': 'Deerfield Beach',
-    '[City 2]': 'Coconut Creek',
-    '[City 3]': 'Parkland',
-    '[County]': 'Broward County',
+    '[City 1]': 'Glendale',
+    '[City 2]': 'Litchfield Park',
+    '[City 3]': 'Avondale',
+    '[County]': 'Maricopa County',
     '[CTA Button]': '',
   };
 

@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE.name} | Expert HVAC Services in Pompano Beach, FL`,
+    default: `${SITE.name} | Expert HVAC Services in El Mirage, AZ`,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,
   keywords:
-    "AC repair Pompano Beach, HVAC services, air conditioning repair, AC installation, emergency AC repair, duct cleaning, Pompano Beach FL, Broward County HVAC",
+    "AC repair El Mirage, HVAC services, air conditioning repair, AC installation, emergency AC repair, duct cleaning, El Mirage AZ, Maricopa County HVAC",
   openGraph: {
     title: `${SITE.name} - Professional HVAC Services`,
     description: SITE.description,
